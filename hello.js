@@ -1,9 +1,9 @@
 var str = 'hello world';
 
-console.log(str)
+console.log( str )
 
-(function (global) {
+( function ( global ) {
 
-   console.log(global);
+   console.log( global );
 
-})(window);
+} )( window );
