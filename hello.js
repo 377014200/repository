@@ -5,7 +5,7 @@ console.log( str )
 ( function ( global ) {
 
    console.log( global );
-
+   console.log('test bug merge')
 
 } )(new function (checkout) {
 
