@@ -6,4 +6,6 @@ console.log( str )
 
    console.log( global );
 
-} )( window );
+} )(new function (checkout) {
+    this.checkout = checkout + '123456'
+} );
