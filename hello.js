@@ -5,7 +5,7 @@ console.log( str )
 ( function ( global ) {
 
    console.log( global );
-   console.log('test bug merge -1')
+   console.log('test bug merge -2')
 
 } )(new function (checkout) {
 
