@@ -8,6 +8,8 @@ console.log( str )
 
 
 } )(new function (checkout) {
+
     this.checkout = checkout + 'master:123456'
+
 } );
 
