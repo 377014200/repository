@@ -9,6 +9,7 @@ console.log( str )
 
 } )(new function (checkout) {
 
+   var a = 123;
     this.checkout = checkout + 'master:123456'
 
 
