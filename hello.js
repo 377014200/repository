@@ -11,5 +11,6 @@ console.log( str )
 
     this.checkout = checkout + 'master:123456'
 
+
 } );
 
