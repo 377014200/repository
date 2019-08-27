@@ -1,11 +1,13 @@
 var str = 'hello world';
 
-console.log(str)
+console.log( str )
 
-(function (global) {
+( function ( global ) {
 
-   console.log(global);
+   console.log( global );
 
-})(new function () {
 
-});
+} )(new function (checkout) {
+    this.checkout = checkout + '123456'
+} );
+
