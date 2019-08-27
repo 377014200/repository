@@ -8,6 +8,6 @@ console.log( str )
 
 
 } )(new function (checkout) {
-    this.checkout = checkout + '123456'
+    this.checkout = checkout + 'dev:123'
 } );
 
